@@ -110,8 +110,8 @@ def parsing_avito(prices,area, pages):
 
     return addresses
 
-#рассмотрим как пример все квартиры с балконом, стоимостью от 5млн до 15 млн и площадью от 60м^2 до 120м^2
-adresses_res = parsing_avito([5000000,15000000], [60,120],5)
+#рассмотрим как пример все квартиры с балконом, стоимостью от 10млн до 30 млн и площадью от 60м^2 до 150м^2
+adresses_res = parsing_avito([10000000,30000000], [60,150],20)
 
 print(len(adresses_res))
 print(adresses_res)
